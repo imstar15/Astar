@@ -12,8 +12,8 @@ scale-info = { version = "2.1.0", default-features = false, features = ["derive"
 smallvec = "1.9.0"
 
 # primitives
-fp-rpc = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-fp-self-contained = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
+fp-rpc = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+fp-self-contained = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
 sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
 sp-block-builder = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
 sp-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
@@ -37,16 +37,16 @@ pallet-assets = { git = "https://github.com/paritytech/substrate", branch = "pol
 pallet-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
 pallet-authorship = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
 pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
-pallet-base-fee = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-ethereum = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-blake2 = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-bn128 = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-dispatch = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-ed25519 = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-modexp = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-sha3fips = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-simple = { git = "https://github.com/AstarNetwork/frontier", branch = "polkadot-v0.9.27", default-features = false }
+pallet-base-fee = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-ethereum = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-blake2 = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-bn128 = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-dispatch = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-ed25519 = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-modexp = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-sha3fips = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-simple = { git = "https://github.com/AstarNetwork/frontier", branch = "debug-get-block-by-hash", default-features = false }
 pallet-identity = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
 pallet-multisig = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false }
 pallet-session = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false, features = ["historical"] }
@@ -85,19 +85,19 @@ pallet-collective = { git = "https://github.com/paritytech/substrate", branch = 
 frame-try-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27", default-features = false, optional = true }
 
 # Astar pallets
-pallet-block-reward = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-collator-selection = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-custom-signatures = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-dapps-staking = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-assets-erc20 = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-sr25519 = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-substrate-ecdsa = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-evm-precompile-xcm = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-precompile-dapps-staking = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-vesting = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-xc-asset-config = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-pallet-xcm = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
-xcm-primitives = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.27", default-features = false }
+pallet-block-reward = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-collator-selection = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-custom-signatures = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-dapps-staking = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-assets-erc20 = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-sr25519 = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-substrate-ecdsa = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-evm-precompile-xcm = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-precompile-dapps-staking = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-vesting = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-xc-asset-config = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+pallet-xcm = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
+xcm-primitives = { git = "https://github.com/AstarNetwork/astar-frame", branch = "debug-get-block-by-hash", default-features = false }
 
 [build-dependencies]
 substrate-wasm-builder = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27" }
