@@ -62,23 +62,23 @@ pallet-utility = { git = "https://github.com/paritytech/substrate", branch = "po
 pallet-vesting = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33", default-features = false }
 
 # cumulus dependencies
-cumulus-pallet-aura-ext = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-cumulus-pallet-dmp-queue = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-cumulus-pallet-parachain-system = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-cumulus-pallet-xcm = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-cumulus-pallet-xcmp-queue = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-cumulus-primitives-timestamp = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-cumulus-primitives-utility = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
-parachain-info = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33", default-features = false }
+cumulus-pallet-aura-ext = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+cumulus-pallet-dmp-queue = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+cumulus-pallet-parachain-system = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+cumulus-pallet-xcm = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+cumulus-pallet-xcmp-queue = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+cumulus-primitives-core = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+cumulus-primitives-timestamp = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+cumulus-primitives-utility = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
+parachain-info = { git = "https://github.com/imstar15/cumulus", branch = "debug-933", default-features = false }
 
 # polkadot dependencies
-polkadot-parachain = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.33" }
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.33" }
-polkadot-runtime-common = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.33" }
-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.33" }
-xcm-builder = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.33" }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.33" }
+polkadot-parachain = { git = "https://github.com/imstar15/polkadot", default-features = false, branch = "debug-933" }
+polkadot-primitives = { git = "https://github.com/imstar15/polkadot", default-features = false, branch = "debug-933" }
+polkadot-runtime-common = { git = "https://github.com/imstar15/polkadot", default-features = false, branch = "debug-933" }
+xcm = { git = "https://github.com/imstar15/polkadot", default-features = false, branch = "debug-933" }
+xcm-builder = { git = "https://github.com/imstar15/polkadot", default-features = false, branch = "debug-933" }
+xcm-executor = { git = "https://github.com/imstar15/polkadot", default-features = false, branch = "debug-933" }
 
 # benchmarking
 array-bytes = "6.0.0"
@@ -90,18 +90,18 @@ pallet-collective = { git = "https://github.com/paritytech/substrate", branch = 
 frame-try-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33", default-features = false, optional = true }
 
 # Astar pallets
-pallet-block-reward = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-collator-selection = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-custom-signatures = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-dapps-staking = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-evm-precompile-assets-erc20 = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-evm-precompile-sr25519 = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-evm-precompile-substrate-ecdsa = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-evm-precompile-xcm = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-precompile-dapps-staking = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-xc-asset-config = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
-pallet-xcm = { git = "https://github.com/AstarNetwork/astar-frame", default-features = false, branch = "polkadot-v0.9.33" }
-xcm-primitives = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
+pallet-block-reward = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-collator-selection = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-custom-signatures = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-dapps-staking = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-evm-precompile-assets-erc20 = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-evm-precompile-sr25519 = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-evm-precompile-substrate-ecdsa = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-evm-precompile-xcm = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-precompile-dapps-staking = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-xc-asset-config = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
+pallet-xcm = { git = "https://github.com/imstar15/astar-frame", default-features = false, branch = "debug-933" }
+xcm-primitives = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
 
 [build-dependencies]
 substrate-wasm-builder = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33" }

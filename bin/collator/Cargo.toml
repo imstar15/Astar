@@ -85,7 +85,7 @@ shibuya-runtime = { path = "../../runtime/shibuya" }
 shiden-runtime = { path = "../../runtime/shiden" }
 
 # astar-frame dependencies
-pallet-block-reward = { git = "https://github.com/AstarNetwork/astar-frame", branch = "polkadot-v0.9.33", default-features = false }
+pallet-block-reward = { git = "https://github.com/imstar15/astar-frame", branch = "debug-933", default-features = false }
 
 # frame dependencies
 frame-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33" }
@@ -97,24 +97,24 @@ substrate-frame-rpc-system = { version = "4.0.0-dev", git = "https://github.com/
 sc-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33", optional = true }
 
 # cumulus dependencies
-cumulus-client-cli = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-client-consensus-aura = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-client-consensus-common = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-client-consensus-relay-chain = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-client-network = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-client-service = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-primitives-parachain-inherent = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-relay-chain-inprocess-interface = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-relay-chain-interface = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-relay-chain-minimal-node = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-cumulus-relay-chain-rpc-interface = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
+cumulus-client-cli = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-client-consensus-aura = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-client-consensus-common = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-client-consensus-relay-chain = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-client-network = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-client-service = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-primitives-core = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-primitives-parachain-inherent = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-relay-chain-inprocess-interface = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-relay-chain-interface = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-relay-chain-minimal-node = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+cumulus-relay-chain-rpc-interface = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
 
 # polkadot dependencies
-polkadot-cli = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33", optional = true }
-polkadot-parachain = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
-polkadot-service = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
+polkadot-cli = { git = "https://github.com/imstar15/polkadot", branch = "debug-933", optional = true }
+polkadot-parachain = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
+polkadot-primitives = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
+polkadot-service = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
 
 # benchmark dependencies
 frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33", optional = true }
@@ -126,7 +126,7 @@ try-runtime-cli = { git = "https://github.com/paritytech/substrate", branch = "p
 
 [build-dependencies]
 build-script-utils = { package = "substrate-build-script-utils", git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33" }
-polkadot-cli = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33", optional = true }
+polkadot-cli = { git = "https://github.com/imstar15/polkadot", branch = "debug-933", optional = true }
 sc-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33", optional = true }
 sc-service = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33", optional = true }
 

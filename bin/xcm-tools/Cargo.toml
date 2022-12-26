@@ -12,14 +12,14 @@ path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.0.13", features = ["derive"] }
-cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.33" }
-polkadot-parachain = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
+cumulus-primitives-core = { git = "https://github.com/imstar15/cumulus", branch = "debug-933" }
+polkadot-parachain = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
+polkadot-primitives = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
 sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33" }
 sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.33" }
-xcm = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
-xcm-builder = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.33" }
+xcm = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
+xcm-builder = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
+xcm-executor = { git = "https://github.com/imstar15/polkadot", branch = "debug-933" }
 
 hex = "0.4.3"
 regex = "1.6.0"
