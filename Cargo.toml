@@ -156,51 +156,51 @@ fc-storage = { git = "https://github.com/AstarNetwork/frontier", branch = "polka
 
 # Cumulus
 # (wasm)
-cumulus-pallet-aura-ext = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-cumulus-pallet-dmp-queue = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-cumulus-pallet-parachain-system = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-cumulus-pallet-xcmp-queue = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-cumulus-primitives-timestamp = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-cumulus-primitives-utility = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-parachain-info = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+cumulus-pallet-aura-ext = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+cumulus-pallet-dmp-queue = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+cumulus-pallet-parachain-system = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+cumulus-pallet-xcmp-queue = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+cumulus-primitives-core = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+cumulus-primitives-timestamp = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+cumulus-primitives-utility = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+parachain-info = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
 
 # (native)
-cumulus-client-cli = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-client-consensus-aura = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-client-consensus-common = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-client-consensus-relay-chain = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-client-network = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-client-service = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-primitives-parachain-inherent = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-relay-chain-inprocess-interface = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-relay-chain-interface = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-relay-chain-minimal-node = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-relay-chain-rpc-interface = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
-cumulus-test-relay-sproof-builder = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-client-cli = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-client-consensus-aura = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-client-consensus-common = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-client-consensus-relay-chain = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-client-network = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-client-service = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-primitives-parachain-inherent = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-relay-chain-inprocess-interface = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-relay-chain-interface = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-relay-chain-minimal-node = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-relay-chain-rpc-interface = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
+cumulus-test-relay-sproof-builder = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39" }
 
 # Polkadot
 # (wasm)
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
-polkadot-runtime-common = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
-polkadot-core-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
-polkadot-parachain = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
-polkadot-runtime-parachains = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
+polkadot-primitives = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
+polkadot-runtime-common = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
+polkadot-core-primitives = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
+polkadot-parachain = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
+polkadot-runtime-parachains = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
 
 # Temporary, to ensure `runtime-benchmarks` features can compile
-polkadot-runtime = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
+polkadot-runtime = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
 
 # XCM
 # (wasm)
-cumulus-pallet-xcm = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.39", default-features = false }
-xcm = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
-xcm-builder = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
-xcm-simulator = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39", default-features = false }
+cumulus-pallet-xcm = { git = "https://github.com/imstar15/cumulus", branch = "polkadot-v0.9.39", default-features = false }
+xcm = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
+xcm-builder = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
+xcm-executor = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
+xcm-simulator = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39", default-features = false }
 
 # (native)
-polkadot-cli = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39" }
-polkadot-service = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.39" }
+polkadot-cli = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39" }
+polkadot-service = { git = "https://github.com/imstar15/polkadot", branch = "release-v0.9.39" }
 
 # Astar pallets & modules
 # (wasm)
